@@ -6,3 +6,219 @@ Colors:
 #75726C;
 #EDE9E2
 */
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+/*Menu*/
+#menu{
+	width: 100%;
+	background-color: #E54E79;
+	position: fixed;
+	z-index: 1000;
+}
+
+.encabezado{
+	width: 30%;
+	margin: 0 50px;
+	padding-top: 20px;
+	float: right;
+	clear: bottom;
+	box-sizing: border-box;
+}
+
+.encabezado li{
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 30px;
+}
+
+.encabezado a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+
+.encabezado a:hover{
+	font-weight: 900;
+}
+/*Logo*/
+.logotipo{
+	width: 4%;
+	float: left;
+	clear: bottom;
+	margin: 10px 140px;
+	box-sizing: border-box;
+}
+
+.logotipo img{
+	width: 100%;
+}
+
+
+#fondo {
+	width: 100%;
+	height: 600px;
+	background: url("../img/cropped-Lyft-Promo-Codes-car-1.jpg");
+	position: static;
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+
+/*Formulario*/
+.formulario{
+	width: 35%;
+	height: 340px;
+	position: relative;
+	float: right;
+	clear: bottom;
+	top:140px;
+	background-color: #EDE9E2;
+	padding-left: 40px;
+	padding-top: 30px;
+	font-weight: 400;
+}
+
+.formulario h2{
+	text-transform: uppercase;
+	margin-top: 30px;
+	color:#00B2A9;
+}
+
+.formulario p{
+	color: black;
+}
+
+/*tamaño -posición texto formulario*/
+.formulario p:nth-child(2) {
+	text-transform: uppercase;
+	margin: 30px 0;
+	font-size: 14px;
+	color: black;
+}
+
+/*Color del cuadrado input*/
+.numero-fono input{
+	height: 18px;
+	width: 80%;
+	padding: 5px;
+	background-color: #ede9e2;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border: none;
+	border-bottom: solid thin silver;
+}
+
+/*texto dentro del input*/
+.numero-fono input::placeholder{
+	color: #BDBDBD;
+}
+
+/*boton become*/
+.boton button{
+	width: 170px;
+	height: 35px;
+	margin-top:10px;
+	background-color: #E54E79;
+	border:solid thin #E54E79;
+	border-radius: 12px;
+	color: white;
+	text-transform: uppercase;
+}
+
+/*posición "already"*/
+.formulario{
+	color: black;
+	font-size: 12px;
+	line-height: 28px;
+	margin-top: 10px;
+}
+
+/*Coordenadas*/
+/*caja celeste*/
+#caja{
+	width: 100%;
+	height: 400px;
+	background-color: #00B2A9;
+}
+
+#caja h1{
+	width: 100%;
+	margin-top: 60px;
+	position: absolute;
+	background-color: #EDE9E2;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 38px;
+	text-transform: uppercase;
+	color: #75726C;
+}
+
+.caja-blanca{
+	width: 50%;
+	height: 200px;
+	position: relative;
+	top: 170px;
+	margin: 0 auto;
+	background-color: #EDE9E2;
+}
+
+/*elementos dentro de caja-blanca*/
+.coordenadas-x, .coordenadas-y{
+	height: 18px;
+	width: 40%;
+	padding-top: 30px;
+	background-color: #ede9e2;
+	margin: 30px;
+	border: none;
+	border-bottom: solid 2px silver;
+}
+
+/*botón start*/
+.start {
+	width: 90%;
+	height: 38px;
+	margin:10px 30px;
+	background-color: #00B2A9;
+	border:solid thin #00B2A9;
+	border-radius: 10px;
+	color: white;
+	text-transform: uppercase;
+}
+
+/*Footer*/
+
+.nav-footer ul li a{
+  position: absolute;
+  text-indent: 650px;
+  text-decoration: none;
+  color:white;
+  list-style: none;
+  background-color: #757266;
+}
+
+.nav-footer p{
+  background-color: #757266;
+  color:white;
+}
+
+#pie {
+  text-indent: 290px;
+  background-color: #757266;
+  color: white;
+  font-size: 15px;
+  padding: 50px;
+  list-style: none;
+  }
+
+h4 {
+  font-size: 20px;
+}
